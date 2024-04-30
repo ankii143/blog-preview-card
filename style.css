@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 375px;
+    padding: 1.2rem;
+    border-radius: 0.9rem;
+    border: 1.5px solid  hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+.card img{
+    border-radius: 0.6rem;
+    width: 100%;
+}
+.learning{
+    padding: 1rem 0;
+}
+span{
+    background-color:hsl(47, 88%, 63%) ;
+    padding: 0.3rem 0.7rem;
+    margin-top: 0.5rem;
+    font-weight: 800;
+    border-radius: 0.2rem;
+}
+.date{
+    font-weight: 500;
+    padding: 0.3rem 0;
+}
+h2{
+    font-weight: 800;
+    padding: 0.3rem 0 0.8rem 0;
+}
+h2:hover{
+    cursor: pointer;
+    color:hsl(47, 88%, 63%) ;
+}
+.para{
+    line-height: 1.5;
+    font-weight: 500;
+    color:  hsl(0, 0%, 50%);
+}
+.avtar{
+    width: 40px;
+    height: 40px;
+}
+.profile{
+    padding: 0.8rem 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.avtar img{
+    width: 100%;
+}
+.profile p{
+    font-weight: 800;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
